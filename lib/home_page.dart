@@ -13,6 +13,9 @@ class HomePage extends StatelessWidget {
     Section(package: "animated_toggle_switch"),
     Section(package: "auto_animated"),
     Section(package: "animated_floating_buttons"),
+    Section(package: "salomon_bottom_bar"),
+    Section(package: "flutter_floating_bottom_bar"),
+    Section(package: "floating_frosted_bottom_bar"),
   ];
 
   @override

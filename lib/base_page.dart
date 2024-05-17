@@ -7,13 +7,14 @@ class BasePage extends StatelessWidget {
     required this.widgets,
     this.persistentFooterButtons,
     this.fab,
+    this.bottomNavigationBar,
   });
 
   final String package;
   final List<Widget> widgets;
   final List<Widget>? persistentFooterButtons;
   final Widget? fab;
-
+  final Widget? bottomNavigationBar;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,6 +28,7 @@ class BasePage extends StatelessWidget {
       ),
       persistentFooterButtons: persistentFooterButtons,
       floatingActionButton: fab,
+      bottomNavigationBar: bottomNavigationBar,
     );
   }
 }

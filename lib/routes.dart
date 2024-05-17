@@ -4,6 +4,9 @@ import 'package:qr_animations/packages/animated_floating_buttons_page.dart';
 import 'package:qr_animations/packages/animated_toggle_switch_page.dart';
 import 'package:qr_animations/packages/auto_animated_page.dart';
 import 'package:qr_animations/packages/dashed_circular_progress_bar_page.dart';
+import 'package:qr_animations/packages/floating_frosted_bottom_bar_page.dart';
+import 'package:qr_animations/packages/flutter_floating_bottom_bar_page.dart';
+import 'package:qr_animations/packages/salomon_bottom_bar_page.dart';
 import 'package:qr_animations/packages/syncfusion_flutter_charts_page.dart';
 import 'package:qr_animations/packages/wave_linear_progress_indicator_page.dart';
 import 'package:flutter/material.dart';
@@ -18,5 +21,8 @@ class Routes {
     "animated_toggle_switch": (_) => const AnimatedToggleSwitchPage(),
     "auto_animated": (_) => const AutoAnimatedPage(),
     "animated_floating_buttons": (_) => const AnimatedFloatingButtonsPage(),
+    "salomon_bottom_bar": (_) => const SalomonBottomBarPage(),
+    "flutter_floating_bottom_bar": (_) => const FlutterFloatingBottomBarPage(),
+    "floating_frosted_bottom_bar": (_) => const FloatingFrostedBottomBarPage(),
   };
 }
