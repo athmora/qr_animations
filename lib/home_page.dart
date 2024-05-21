@@ -16,6 +16,8 @@ class HomePage extends StatelessWidget {
     Section(package: "salomon_bottom_bar"),
     Section(package: "flutter_floating_bottom_bar"),
     Section(package: "floating_frosted_bottom_bar"),
+    Section(package: "custom_date_range_picker"),
+    Section(package: "calendar_date_picker2"),
   ];
 
   @override
