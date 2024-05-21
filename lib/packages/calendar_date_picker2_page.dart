@@ -13,13 +13,17 @@ class _CalendarDatePicker2PageState extends State<CalendarDatePicker2Page> {
   List<DateTime?> _dates = [];
   @override
   Widget build(BuildContext context) {
-    print("_dates: ${_dates}");
     return BasePage(
       package: "calendar_date_picker2",
       widgets: [
         CalendarDatePicker2(
           config: CalendarDatePicker2Config(
             calendarType: CalendarDatePicker2Type.range,
+            firstDayOfWeek: 1,
+            selectedDayHighlightColor: Colors.purple[800],
+            dayBorderRadius: BorderRadius.circular(8),
+            monthBorderRadius: BorderRadius.circular(12),
+            centerAlignModePicker: true,
           ),
           value: _dates,
           onValueChanged: (dates) {
